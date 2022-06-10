@@ -971,7 +971,7 @@ job_filters: &job_filters
     filters:
         branches:
             ignore:
-                - push-ci
+                - test_circleci_branch_filtering
 
 workflows:
     version: 2
